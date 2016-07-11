@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Home页</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/hover_pack.js"></script>
+	<style type="text/css">
+		#playBox{
+			width:1350px; 
+			height:630px;
+			margin:0 auto;
+			background:#333; 
+			position:relative; 
+			overflow:hidden;
+		}
+		#playBox .oUlplay { 
+			width:99999px; 
+			position:absolute; 
+			left:0; 
+			top:110px;
+		}
+		#playBox .oUlplay li{ 
+			float:left;
+		}
+		#playBox .smalltitle {
+			width:1000px; 
+			height:10px;
+		    position:absolute; 
+		    bottom:15px; 
+		    z-index:10
+		}
+		#playBox .smalltitle ul{ 
+			width:120px; 
+			margin:0 auto;
+		}
+		#playBox .smalltitle ul li{ 
+			width:10px; 
+			height:10px; 
+			margin:0 5px; 
+			border-radius:10px; 
+			background:#ffffff; 
+			float:left; 
+			overflow:hidden; 
+			cursor: pointer;
+		}
+		#playBox .smalltitle .thistitle{ 
+			background:#69aaec;
+		}
+		#playBox .pre{ 
+			cursor:pointer; 
+			width:45px; 
+			height:45px; 
+			/*background:url(images/l.png) no-repeat;*/ 
+			position:absolute; 
+			top:290px; 
+			left:10px; 
+			z-index:10;
+		}
+        #playBox .next{ 
+	        cursor:pointer; 
+	        width:45px; 
+	        height:45px; 
+	        /*background:url(images/r.png) no-repeat;*/ 
+	        position:absolute; 
+	        top:290px; 
+	        right:10px; 
+	        z-index:10;
+	    }
+	</style>
+</head>
+<body>
+	<div class="header-banner">
+		<div id="playBox" style="background: #6C87BE;">
+			<div class="nav-banner" style="">
+				<div class="large-title" style="width: 128px;">
+					<a href="#" style="color: #fff;">
+						<h1>410</h1>
+					</a>
+				</div>
+				<div class="list-title" style="width: 568px;">
+					<ul class="list">
+						<li class="list-sty">
+							<a href="growup/grow.html" class="per-sty">我们的成长</a>
+						</li>
+						<li class="list-sty">
+							<a href="dalian/dalian.html" class="per-sty">大连之旅</a>
+						</li>
+						<li class="list-sty">
+							<a href="#" class="per-sty" style="color: #000;">主页</a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="pre"></div>     
+	    	<div class="next"></div>    
+	    	<div class="smalltitle">    
+	       	 	<ul>
+	            	<li class="thistitle"></li>
+	            	<li></li>
+	            	<li></li>
+	        	</ul>
+	    	</div>
+	    	<ul class="oUlplay">      
+	       		<li><img src="images/DSC_0079.JPG"/></li>
+	       		<li><img src="images/IMG_1072.JPG"/></li>
+	       		<li><img src="images/IMG_0510.JPG"/></li>
+	    	</ul>
+		</div>
+	</div>
+	<div class="main-content" style="height: 1125px;">
+		<div class="wrap">
+			<div class="content">
+				<h5>我们的毕业季</h5>
+				<h6></h6>
+				<ul class="hover_pack right">
+					<li>
+						<a href="#" class="b_btn"><span > <h4>匆匆那年</h4><p></p></span></a>
+					</li>				 
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+			    		<img src="images/QQ图片20160620231852.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			  			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">陈小艳和王小娜</span></p></div></a>
+					</li>		
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/IMG_2304.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">伟伟和她的前夫</span></p></div></a>
+					</li>	
+					<div class="clear"></div>	
+				</ul>
+				<ul class="hover_pack left">
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/IMG_6128.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">耿小邪和璐姐姐</span></p></div></a>
+					</li>				
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/DSC_0116.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">陈小艳和秦小波</span></p></div></a>
+					</li>	
+					<li>
+						<a href="#" class="b_btn"><span > <h4>可转眼各奔东西</h4><p></p></span> </a>
+					</li>	
+					<div class="clear"></div>															
+				</ul>
+				<ul class="hover_pack left right">
+					<li>
+				 		<a href="#" class="b_btn"><span > <h4>时光荏苒</h4><p></p></span> </a>
+					</li>		
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/DSC_0106.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">珍惜我们拥有的一切</span></p></div></a>
+					</li>				
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/DSC_0202.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">老五同志和她的张小龟</span></p></div></a>
+					</li>
+					<div class="clear"></div>														
+				</ul>
+        		
+				<ul class="hover_pack left">
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/DSC_0148.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">与孔子像的合照</span></p></div></a>
+					</li>	
+					<li>
+				 		<a href="#" class="b_btn"><span > <h4>本以为毕业遥遥无期</h4><p></p></span></a>
+					</li>	
+					<li>
+						<a href="#" class="b-link-stripe b-animate-go  thickbox">
+	            		<img src="images/DSC_0130 - 副本.JPG" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+			 			<p class="b-animate b-from-right    b-delay03 ">毕业季之<br><span class="m_4">璐姐姐</span></p></div></a>
+					</li>	
+					<div class="clear"></div>														
+				</ul>
+				<div class="clear"></div>	
+			</div><!-- end content -->
+		</div>
+	</div>
+	<footer>
+		<section style="margin-top: 15px;margin-bottom: 15px;border-top: 2px solid #6C87BE;">
+			<div class="flex-slider">
+				<ul id="flexiselDemo1">			
+					<li>
+						<div class="media">
+							<a href="#"><img src="images/DSC_0163.JPG" alt=""/></a>
+						</div>
+					</li>
+					<li>
+						<div class="media">
+							<a href="#"><img src="images/DSC_0256.JPG" alt=""/></a>
+						</div>
+					</li>
+					<li>
+						<div class="media">
+							<a href="#"><img src="images/DSC_0021.JPG" alt=""/></a>
+						</div>
+					</li>
+					<li>
+						<div class="media">
+							<a href="#"><img src="images/DSC_0063.JPG" alt=""/></a>
+						</div>
+					</li>
+					<li>
+						<div class="media">
+							<a href="#"><img src="images/DSC_0158.JPG" alt=""/></a>
+						</div>
+					</li>
+					<li>
+					<div class="media">
+						<a href="#"><img src="images/QQ图片20160620231823.jpg" alt=""/></a>
+					</div>
+				</li>
+			</ul>
+   			<script type="text/javascript">
+				$(window).load(function() {
+				$("#flexiselDemo1").flexisel({
+					visibleItems: 5,//一行显示个数
+					animationSpeed: 1000,//动画时间
+					autoPlay:true,//自动播放
+					autoPlaySpeed: 3000,//播放间隔时间		
+					pauseOnHover: true,//鼠标悬浮是否停止播放
+					enableResponsiveBreakpoints: true,//是否开启响应式
+					responsiveBreakpoints: { 
+						portrait: { //项目名。可随意命名
+							changePoint:480,
+							visibleItems: 2
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems: 3
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 3
+						}
+					}
+				});
+			});
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+			</div>
+		</section>
+		<div class="foot-container">
+			<div class="foot-content">
+				<p>410的小伙伴们一切顺利！</p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		window.onload=function(){
+			var oDiv = document.getElementById('playBox');
+		    var oPre = getByClass(oDiv, 'pre')[0];
+		    var oNext = getByClass(oDiv, 'next')[0];
+		    var oUlBig = getByClass(oDiv, 'oUlplay')[0];
+		    var aBigLi = oUlBig.getElementsByTagName('li');
+		    var oDivSmall = getByClass(oDiv, 'smalltitle')[0];
+		    var aLiSmall = oDivSmall.getElementsByTagName('li');
+		    var now = 0;
+		    function tab() {
+		        for (var i = 0; i < aLiSmall.length; i++) {
+		            aLiSmall[i].className = '';//将圆点全部设置为白色
+		        }
+		        aLiSmall[now].className = 'thistitle'//变色
+		        startMove(oUlBig, 'left', -(now * aBigLi[0].offsetWidth))
+		        //展示图片
+    		}
+
+                 //记住指示器位置，给小圆点设置onclick
+		    for (var i = 0; i < aLiSmall.length; i++) {
+		        aLiSmall[i].index = i;
+		        aLiSmall[i].onclick = function() {
+		            now = this.index;
+		            tab();
+		        }
+		    }
+             //给左右箭头设置onclick按钮
+		    oPre.onclick = function() {
+		        now--
+		        if (now == -1) {
+		            now = aBigLi.length-1;
+		        }
+		        tab();
+		    }
+		    oNext.onclick = function() {
+		        now++
+		        if (now == aBigLi.length) {
+		            now = 0;
+		        }
+		        tab();
+		    }
+            //设置定时器
+		    var timer = setInterval(oNext.onclick, 3000) //滚动间隔时间设置
+		    oDiv.onmouseover = function() {  //鼠标放上取消定时器
+		        clearInterval(timer)
+		    }
+		    oDiv.onmouseout = function() {
+		        timer = setInterval(oNext.onclick, 3000) //滚动间隔时间设置
+		    }
+		}
+           
+
+
+
+
+		function getStyle(obj, name) {
+		    if (obj.currentStyle) {
+		        return obj.currentStyle[name]
+		    } else {
+		        return getComputedStyle(obj, false)[name]
+		    }
+		}
+
+		function getByClass(oParent, nClass) {
+		    var eLe = oParent.getElementsByTagName('*');
+		    var aRrent = [];
+		    for (var i = 0; i < eLe.length; i++) {
+		        if (eLe[i].className == nClass) {
+		            aRrent.push(eLe[i]);
+		        }
+		    }
+		    return aRrent;
+		}
+
+		function startMove(obj, att, add) {
+		    clearInterval(obj.timer)
+		    obj.timer = setInterval(function() {
+		        var cutt = 0;
+		        if (att == 'opacity') {
+		            cutt = Math.round(parseFloat(getStyle(obj, att)));
+		        } else {
+		            cutt = Math.round(parseInt(getStyle(obj, att)));
+		        }
+		        var speed = (add - cutt) / 8;
+		        speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+		        if (cutt == add) {
+		            clearInterval(obj.timer)
+		        } else {
+		            if (att == 'opacity') {
+		                obj.style.opacity = (cutt + speed) / 100;
+		                obj.style.filter='alpha(opacity:'+(cutt + speed)+')';
+		            } else {
+		                obj.style[att] = cutt + speed + 'px';
+		            }
+		        }
+
+		    }, 30)
+		}
+	</script>
+</body>
+</html>
